@@ -45,8 +45,8 @@ class Nginx implements InterfaceAction, InterfaceParams {
 
         $this->_default = <<<A
 server {
-    listen {$this->port};
-    listen [::]:{$this->port};
+    listen {$this->_port};
+    listen [::]:{$this->_port};
 
     root {$this->_document_root};
     index index.php;
