@@ -3,8 +3,8 @@ Virtual Host Manager
 
 Introduction
 ------------
-This is a PHP CLI system to manage virtual hosts with Apache 2 (>= 2.4) for Linux. 
-The system can help us to create virtual host file into Apache 2 directory 
+This is a PHP CLI system to manage virtual hosts with Nginx (>= 1.10.0) for Linux. 
+The system can help us to create virtual host file into Nginx directory 
 and create register into hosts file.
 
 Use mode
