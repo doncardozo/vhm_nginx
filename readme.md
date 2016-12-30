@@ -10,7 +10,7 @@ and create register into hosts file.
 Use mode
 ------------
 To execute we need root permission.
-In project directory:
+Into project directory:
 
 <strong>To create virtual host</strong><br/>
 sudo php generate.php \<virtual host name\> \<project path name\> \[\<ip\> \<port\>\] 
